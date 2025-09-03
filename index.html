@@ -76,7 +76,7 @@ const App = () => {
     });
 
     return () => unsubscribe();
-  }, [db, userId, activeFolderId]);
+  }, [db, userId]);
 
   // Handle new folder creation
   const handleCreateFolder = async () => {
